@@ -1,0 +1,466 @@
+:root {
+  --custom-width: 100vw;
+  --design-width: 1440;
+  --ratio: calc(var(--custom-width) / var(--design-width));
+}
+
+/* Default classes */
+
+.pos-abs {
+  position: absolute;
+}
+
+.fill-parent {
+  width: 100%;
+  height: 100%;
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-auto {
+  background-size: auto;
+}
+
+.bg-crop {
+  background-size: 100% 100%;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.pos-init {
+  top: 0px;
+  left: 0px;
+}
+
+.image-div {
+  background-color: transparent;
+  background-position: center;
+}
+
+/* Default classes end */
+
+body {
+  margin: 0px 0px;
+  padding: 0px;
+}
+
+.parent-div {
+  position: relative;
+  width: var(--custom-width);
+  height: calc(705 * var(--ratio));
+  overflow: hidden;
+  margin: auto;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.frame-1-2742 {
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  z-index: 1;
+  transform: rotate(0deg);
+  overflow: hidden;
+  background: #fdf3ddff;
+}
+
+.nodeBg-2945 {
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  opacity: 1;
+}
+
+.image-1-2945 {
+  width: 8.33%;
+  height: 15.32%;
+  top: 7.51%;
+  left: 7.22%;
+  z-index: 1;
+  transform: rotate(0deg);
+  overflow: hidden;
+}
+
+.match-my-mood-2944 {
+  width: 19.72%;
+  height: 13.01%;
+  top: 9.83%;
+  left: 15.56%;
+  z-index: 0;
+  transform: rotate(0deg);
+  text-align: left;
+  line-height: 0px;
+}
+
+.match-my-mood-2944-0 {
+  font-size: calc(50 * var(--ratio));
+  line-height: calc(50 * var(--ratio));
+  font-family: Koulen;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #000000ff;
+}
+
+.rectangle-7-2979 {
+  width: 38.54%;
+  height: 10.12%;
+  top: 11.56%;
+  left: 43.4%;
+  z-index: 12;
+  transform: rotate(0deg);
+  border-radius: 50px;
+  background: #fe817dff;
+}
+
+.how-are-you-fee-2980 {
+  width: 22.36%;
+  height: 6.36%;
+  top: 13.15%;
+  left: 44.58%;
+  z-index: 13;
+  transform: rotate(0deg);
+  text-align: left;
+  line-height: 0px;
+}
+
+.how-are-you-fee-2980-0,
+.unmotivated-laz-2984-0,
+.stressed-overwh-2990-0,
+.boredrestless-29100-0,
+.inspired-creati-29104-0 {
+  font-size: calc(35 * var(--ratio));
+  line-height: calc(35 * var(--ratio));
+  font-family: Kreon;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #fdf3ddff;
+}
+
+.frame-2-2947 {
+  width: 16.94%;
+  height: 30.2%;
+  top: 27.46%;
+  left: 4.58%;
+  z-index: 2;
+  transform: rotate(0deg);
+  overflow: hidden;
+  border-radius: 30px;
+  background: #caaacdff;
+  box-sizing: border-box;
+  border-left: 1px solid #000000ff;
+  border-right: 1px solid #000000ff;
+  border-top: 1px solid #000000ff;
+  border-bottom: 1px solid #000000ff;
+}
+
+.unmotivated-laz-2984 {
+  width: 81.97%;
+  height: 42.11%;
+  top: 19.62%;
+  left: 9.02%;
+  z-index: 0;
+  transform: rotate(0deg);
+  text-align: left;
+  line-height: 0px;
+}
+
+.frame-4-2953 {
+  width: 16.94%;
+  height: 30.2%;
+  top: 27.46%;
+  left: 23.06%;
+  z-index: 10;
+  transform: rotate(0deg);
+  overflow: hidden;
+  border-radius: 30px;
+  background: #cb962eff;
+  box-sizing: border-box;
+  border-left: 1px solid #000000ff;
+  border-right: 1px solid #000000ff;
+  border-top: 1px solid #000000ff;
+  border-bottom: 1px solid #000000ff;
+}
+
+.stressed-overwh-2990 {
+  width: 137.3%;
+  height: 18.18%;
+  top: 22.49%;
+  left: 11.89%;
+  z-index: 0;
+  transform: rotate(0deg);
+  text-align: left;
+  line-height: 0px;
+}
+
+.frame-6-2957 {
+  width: 17.01%;
+  height: 30.2%;
+  top: 27.46%;
+  left: 41.46%;
+  z-index: 8;
+  transform: rotate(0deg);
+  overflow: hidden;
+  border-radius: 30px;
+  background: #ef601eff;
+  box-sizing: border-box;
+  border-left: 1px solid #000000ff;
+  border-right: 1px solid #000000ff;
+  border-top: 1px solid #000000ff;
+  border-bottom: 1px solid #000000ff;
+}
+
+.curious-intelle-2994 {
+  width: 65.31%;
+  height: 42.11%;
+  top: 19.62%;
+  left: 17.55%;
+  z-index: 0;
+  transform: rotate(0deg);
+  text-align: left;
+  line-height: 0px;
+}
+
+.curious-intelle-2994-0,
+.sad-heartbroken-2992-0 {
+  font-size: calc(35 * var(--ratio));
+  line-height: calc(35 * var(--ratio));
+  font-family: Kreon;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #d6e8f7ff;
+}
+
+.frame-8-2963 {
+  width: 16.94%;
+  height: 30.2%;
+  top: 27.46%;
+  left: 59.93%;
+  z-index: 6;
+  transform: rotate(0deg);
+  overflow: hidden;
+  border-radius: 30px;
+  background: #f1dfb6ff;
+  box-sizing: border-box;
+  border-left: 1px solid #000000ff;
+  border-right: 1px solid #000000ff;
+  border-top: 1px solid #000000ff;
+  border-bottom: 1px solid #000000ff;
+}
+
+.angry-frustrate-2998 {
+  width: 61.89%;
+  height: 42.11%;
+  top: 19.62%;
+  left: 19.26%;
+  z-index: 0;
+  transform: rotate(0deg);
+  text-align: left;
+  line-height: 0px;
+}
+
+.angry-frustrate-2998-0,
+.happyexcited-2996-0 {
+  font-size: calc(35 * var(--ratio));
+  line-height: calc(35 * var(--ratio));
+  font-family: Kreon;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #ef601eff;
+}
+
+.frame-10-2973 {
+  width: 16.94%;
+  height: 30.2%;
+  top: 27.46%;
+  left: 78.4%;
+  z-index: 4;
+  transform: rotate(0deg);
+  overflow: hidden;
+  border-radius: 30px;
+  background: #d6e8f7ff;
+  box-sizing: border-box;
+  border-left: 1px solid #000000ff;
+  border-right: 1px solid #000000ff;
+  border-top: 1px solid #000000ff;
+  border-bottom: 1px solid #000000ff;
+}
+
+.romantic-dreamy-29102 {
+  width: 62.3%;
+  height: 42.11%;
+  top: 19.62%;
+  left: 18.85%;
+  z-index: 0;
+  transform: rotate(0deg);
+  text-align: left;
+  line-height: 0px;
+}
+
+.romantic-dreamy-29102-0,
+.nostalgic-refle-2986-0 {
+  font-size: calc(35 * var(--ratio));
+  line-height: calc(35 * var(--ratio));
+  font-family: Kreon;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #cb962eff;
+}
+
+.frame-3-2951 {
+  width: 16.94%;
+  height: 30.2%;
+  top: 61.42%;
+  left: 4.58%;
+  z-index: 11;
+  transform: rotate(0deg);
+  overflow: hidden;
+  border-radius: 30px;
+  background: #d6e8f7ff;
+  box-sizing: border-box;
+  border-left: 1px solid #000000ff;
+  border-right: 1px solid #000000ff;
+  border-top: 1px solid #000000ff;
+  border-bottom: 1px solid #000000ff;
+}
+
+.nostalgic-refle-2986 {
+  width: 61.07%;
+  height: 42.11%;
+  top: 19.62%;
+  left: 19.26%;
+  z-index: 0;
+  transform: rotate(0deg);
+  text-align: left;
+  line-height: 0px;
+}
+
+.frame-5-2955 {
+  width: 16.94%;
+  height: 30.2%;
+  top: 61.42%;
+  left: 23.06%;
+  z-index: 9;
+  transform: rotate(0deg);
+  overflow: hidden;
+  border-radius: 30px;
+  background: #ef601eff;
+  box-sizing: border-box;
+  border-left: 1px solid #000000ff;
+  border-right: 1px solid #000000ff;
+  border-top: 1px solid #000000ff;
+  border-bottom: 1px solid #000000ff;
+}
+
+.sad-heartbroken-2992 {
+  width: 74.18%;
+  height: 42.11%;
+  top: 19.62%;
+  left: 13.11%;
+  z-index: 0;
+  transform: rotate(0deg);
+  text-align: left;
+  line-height: 0px;
+}
+
+.frame-7-2961 {
+  width: 17.01%;
+  height: 30.2%;
+  top: 61.42%;
+  left: 41.46%;
+  z-index: 7;
+  transform: rotate(0deg);
+  overflow: hidden;
+  border-radius: 30px;
+  background: #f1dfb6ff;
+  box-sizing: border-box;
+  border-left: 1px solid #000000ff;
+  border-right: 1px solid #000000ff;
+  border-top: 1px solid #000000ff;
+  border-bottom: 1px solid #000000ff;
+}
+
+.happyexcited-2996 {
+  width: 86.53%;
+  height: 21.05%;
+  top: 30.14%;
+  left: 6.94%;
+  z-index: 0;
+  transform: rotate(0deg);
+  text-align: left;
+  line-height: 0px;
+}
+
+.frame-9-2969 {
+  width: 16.94%;
+  height: 30.2%;
+  top: 61.42%;
+  left: 59.93%;
+  z-index: 5;
+  transform: rotate(0deg);
+  overflow: hidden;
+  border-radius: 30px;
+  background: #cb962eff;
+  box-sizing: border-box;
+  border-left: 1px solid #000000ff;
+  border-right: 1px solid #000000ff;
+  border-top: 1px solid #000000ff;
+  border-bottom: 1px solid #000000ff;
+}
+
+.boredrestless-29100 {
+  width: 88.52%;
+  height: 21.05%;
+  top: 30.14%;
+  left: 4.92%;
+  z-index: 0;
+  transform: rotate(0deg);
+  text-align: left;
+  line-height: 0px;
+}
+
+.frame-11-2977 {
+  width: 16.94%;
+  height: 30.2%;
+  top: 61.42%;
+  left: 78.4%;
+  z-index: 3;
+  transform: rotate(0deg);
+  overflow: hidden;
+  border-radius: 30px;
+  background: #caaacdff;
+  box-sizing: border-box;
+  border-left: 1px solid #000000ff;
+  border-right: 1px solid #000000ff;
+  border-top: 1px solid #000000ff;
+  border-bottom: 1px solid #000000ff;
+}
+
+.inspired-creati-29104 {
+  width: 55.33%;
+  height: 42.11%;
+  top: 24.4%;
+  left: 22.13%;
+  z-index: 0;
+  transform: rotate(0deg);
+  text-align: left;
+  line-height: 0px;
+}

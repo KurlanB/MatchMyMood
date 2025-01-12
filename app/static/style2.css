@@ -1,0 +1,309 @@
+:root {
+    --custom-width: 100vw;
+    --design-width: 1440;
+    --ratio: calc(var(--custom-width) / var(--design-width));
+}
+
+/* Default classes */
+.pos-abs {
+    position: absolute;
+}
+
+.fill-parent {
+    width: 100%;
+    height: 100%;
+}
+
+.bg-contain {
+    background-size: contain;
+}
+
+.bg-cover {
+    background-size: cover;
+}
+
+.bg-auto {
+    background-size: auto;
+}
+
+.bg-crop {
+    background-size: 100% 100%;
+}
+
+.bg-no-repeat {
+    background-repeat: no-repeat;
+}
+
+.pos-init {
+    top: 0px;
+    left: 0px;
+}
+
+.image-div {
+    background-color: transparent;
+    background-position: center;
+}
+
+/* Default classes end */
+
+body {
+    margin: 0px 0px;
+    padding: 0px;
+}
+
+.parent-div {
+    position: relative;
+    width: var(--custom-width);
+    height: calc(705 * var(--ratio));
+    overflow: hidden;
+    margin: auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.frame-12-302 {
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+    transform: rotate(0deg);
+    overflow: hidden;
+    background: #fdf3ddff;
+}
+
+.frame-12-305 {
+    width: 60%;
+    height: 10.98%;
+    top: 6.07%;
+    left: 20%;
+    z-index: 1;
+    transform: rotate(0deg);
+    overflow: hidden;
+    border-radius: 30px;
+    background: #fe817dff;
+    box-sizing: border-box;
+    border-left: 1px solid #ef601eff;
+    border-right: 1px solid #ef601eff;
+    border-top: 1px solid #ef601eff;
+    border-bottom: 1px solid #ef601eff;
+}
+
+.here-is-your-ma-306 {
+    width: 79.05%;
+    height: 57.89%;
+    top: 21.05%;
+    left: 10.42%;
+    z-index: 0;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+}
+
+.here-is-your-ma-306-0 {
+    font-size: calc(35 * var(--ratio));
+    line-height: calc(35 * var(--ratio));
+    font-family: Kreon;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none;
+    white-space: pre-wrap;
+    color: #fdf3ddff;
+}
+
+.frame-14-308 {
+    width: 31.11%;
+    height: 7.8%;
+    top: 20.23%;
+    left: 3.96%;
+    z-index: 2;
+    transform: rotate(0deg);
+    overflow: hidden;
+    border-radius: 25px;
+    background: #ffffffff;
+}
+
+.title-329 {
+    width: 14.96%;
+    height: 74.07%;
+    top: 12.96%;
+    left: 4.46%;
+    z-index: 0;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+}
+
+.title-329-0,
+.authors-3216-0,
+.page-count-3219-0,
+.summary-3211-0,
+.google-books-li-3229-0 {
+    font-size: calc(32 * var(--ratio));
+    line-height: calc(32 * var(--ratio));
+    font-family: Kreon;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none;
+    white-space: pre-wrap;
+    color: #000000ff;
+}
+
+.frame-16-3215 {
+    width: 31.11%;
+    height: 7.8%;
+    top: 20.23%;
+    left: 36.39%;
+    z-index: 3;
+    transform: rotate(0deg);
+    overflow: hidden;
+    border-radius: 25px;
+    background: #ffffffff;
+}
+
+.authors-3216 {
+    width: 28.79%;
+    height: 74.07%;
+    top: 16.67%;
+    left: 4.02%;
+    z-index: 0;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+}
+
+.frame-13-303 {
+    width: 27.57%;
+    height: 66.33%;
+    top: 20.23%;
+    left: 68.89%;
+    z-index: 0;
+    transform: rotate(0deg);
+    overflow: hidden;
+    background: #ffffffff;
+}
+
+.cover-page-imag-304 {
+    width: 82.87%;
+    height: 19.61%;
+    top: 33.12%;
+    left: 12.85%;
+    z-index: 0;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+}
+
+.cover-page-imag-304-0 {
+    font-size: calc(50 * var(--ratio));
+    line-height: calc(50 * var(--ratio));
+    font-family: Koulen;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none;
+    white-space: pre-wrap;
+    color: #000000ff;
+}
+
+.frame-14-3218 {
+    width: 31.11%;
+    height: 7.8%;
+    top: 29.77%;
+    left: 3.96%;
+    z-index: 4;
+    transform: rotate(0deg);
+    overflow: hidden;
+    border-radius: 25px;
+    background: #ffffffff;
+}
+
+.page-count-3219 {
+    width: 34.38%;
+    height: 74.07%;
+    top: 16.67%;
+    left: 4.02%;
+    z-index: 0;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+}
+
+.frame-17-3221 {
+    width: 31.11%;
+    height: 7.8%;
+    top: 29.77%;
+    left: 36.39%;
+    z-index: 6;
+    transform: rotate(0deg);
+    overflow: hidden;
+    border-radius: 25px;
+    background: #ffffffff;
+}
+
+.publication-dat-3222 {
+    width: 53.57%;
+    height: 81.48%;
+    top: 12.96%;
+    left: 3.57%;
+    z-index: 0;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+}
+
+.publication-dat-3222-0 {
+    font-size: calc(35 * var(--ratio));
+    line-height: calc(35 * var(--ratio));
+    font-family: Kreon;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none;
+    white-space: pre-wrap;
+    color: #000000ff;
+}
+
+.frame-15-3210 {
+    width: 63.54%;
+    height: 37.43%;
+    top: 39.45%;
+    left: 3.96%;
+    z-index: 7;
+    transform: rotate(0deg);
+    overflow: hidden;
+    border-radius: 25px;
+    background: #ffffffff;
+}
+
+.summary-3211 {
+    width: 14.64%;
+    height: 15.44%;
+    top: 4.25%;
+    left: 2.19%;
+    z-index: 0;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+}
+
+.frame-18-3228 {
+    width: 63.54%;
+    height: 7.8%;
+    top: 78.18%;
+    left: 3.96%;
+    z-index: 5;
+    transform: rotate(0deg);
+    overflow: hidden;
+    border-radius: 25px;
+    background: #ffffffff;
+}
+
+.google-books-li-3229 {
+    width: 26.34%;
+    height: 74.07%;
+    top: 16.67%;
+    left: 2.08%;
+    z-index: 0;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+}
