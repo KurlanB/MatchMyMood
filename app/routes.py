@@ -110,8 +110,8 @@ def page2():
                 author=book_details["author"],
                 description=book_details["description"],
                 link=book_details["link"],
-                page_count=book_details["page_count"],
-                published_date=book_details["published_date"],
+                count=book_details["page_count"],
+                date=book_details["published_date"],
                 cover=book_details["cover_image"]
             )
         else:
