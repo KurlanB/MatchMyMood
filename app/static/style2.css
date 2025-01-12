@@ -124,7 +124,7 @@ body {
 }
 
 .title-329 {
-    width: 14.96%;
+    width: 90%;
     height: 74.07%;
     top: 12.96%;
     left: 4.46%;
@@ -139,7 +139,7 @@ body {
 .page-count-3219-0,
 .summary-3211-0,
 .google-books-li-3229-0 {
-    font-size: calc(32 * var(--ratio));
+    font-size: calc(20 * var(--ratio));
     line-height: calc(32 * var(--ratio));
     font-family: Kreon;
     font-weight: 400;
@@ -162,7 +162,7 @@ body {
 }
 
 .authors-3216 {
-    width: 28.79%;
+    width: 90%;
     height: 74.07%;
     top: 16.67%;
     left: 4.02%;
@@ -185,9 +185,9 @@ body {
 
 .cover-page-imag-304 {
     width: 82.87%;
-    height: 19.61%;
-    top: 33.12%;
-    left: 12.85%;
+    height: 80%;
+    margin-top:20%;
+    margin-left:20%;
     z-index: 0;
     transform: rotate(0deg);
     text-align: left;
@@ -205,6 +205,11 @@ body {
     color: #000000ff;
 }
 
+img{
+    width:80%;
+    height:80%;
+}
+
 .frame-14-3218 {
     width: 31.11%;
     height: 7.8%;
@@ -218,7 +223,7 @@ body {
 }
 
 .page-count-3219 {
-    width: 34.38%;
+    width: 90%;
     height: 74.07%;
     top: 16.67%;
     left: 4.02%;
@@ -241,7 +246,7 @@ body {
 }
 
 .publication-dat-3222 {
-    width: 53.57%;
+    width: 90%;
     height: 81.48%;
     top: 12.96%;
     left: 3.57%;
@@ -252,7 +257,7 @@ body {
 }
 
 .publication-dat-3222-0 {
-    font-size: calc(35 * var(--ratio));
+    font-size: calc(20 * var(--ratio));
     line-height: calc(35 * var(--ratio));
     font-family: Kreon;
     font-weight: 400;
@@ -275,7 +280,7 @@ body {
 }
 
 .summary-3211 {
-    width: 14.64%;
+    width: 90%;
     height: 15.44%;
     top: 4.25%;
     left: 2.19%;
@@ -306,4 +311,35 @@ body {
     transform: rotate(0deg);
     text-align: left;
     line-height: 0px;
+}
+
+.button{
+    position:absolute;
+    text-decoration:none;
+    width: 15%;
+    height: 6%;
+    top:90%;
+    left:45%;
+    z-index: 1;
+    transform: rotate(0deg);
+    overflow: hidden;
+    border-radius: 30px;
+    background: #fe817dff;
+    box-sizing: border-box;
+    border-left: 1px solid #ef601eff;
+    border-right: 1px solid #ef601eff;
+    border-top: 1px solid #ef601eff;
+    border-bottom: 1px solid #ef601eff;
+    text-align:center;
+}
+
+.inner-button{
+    text-decoration: none;
+    font-size: calc(30 * var(--ratio));
+    line-height: calc(35 * var(--ratio));
+    font-family: Kreon;
+    font-weight: 400;
+    text-transform: none;
+    white-space: pre-wrap;
+    color: #fdf3ddff;
 }

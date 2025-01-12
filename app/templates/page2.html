@@ -2,8 +2,8 @@
 <html>
 
 <head>
-    <title>Frame 12</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8" />
+    <title>MatchMyMood - Book Recommendation</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style2.css') }}" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,51 +24,55 @@
             <!-- Frame 141 -->
             <section class="frame-14-308 pos-abs">
                 <div class="title-329 pos-abs">
-                    <span class="title-329-0">Title:</span>
+                    <span class="title-329-0">Title: {{ title }}</span>
                 </div>
             </section>
 
             <!-- Frame 161 -->
             <section class="frame-16-3215 pos-abs">
                 <div class="authors-3216 pos-abs">
-                    <span class="authors-3216-0">Author(s):</span>
+                    <span class="authors-3216-0">Author(s): {{ author }}</span>
                 </div>
             </section>
 
             <!-- Frame 131 -->
             <section class="frame-13-303 pos-abs">
                 <div class="cover-page-imag-304 pos-abs">
-                    <span class="cover-page-imag-304-0">Cover Page Image</span>
+                    <span class="cover-page-imag-304-0"><img src="{{ cover }}" alt="Cover of the book"></span>
                 </div>
             </section>
 
             <!-- Frame 142 -->
             <section class="frame-14-3218 pos-abs">
                 <div class="page-count-3219 pos-abs">
-                    <span class="page-count-3219-0">Page Count:</span>
+                    <span class="page-count-3219-0">Page Count: {{ count }}</span>
                 </div>
             </section>
 
             <!-- Frame 171 -->
             <section class="frame-17-3221 pos-abs">
                 <div class="publication-dat-3222 pos-abs">
-                    <span class="publication-dat-3222-0">Publication Date:</span>
+                    <span class="publication-dat-3222-0">Publication Date: {{ date }}</span>
                 </div>
             </section>
 
             <!-- Frame 151 -->
             <section class="frame-15-3210 pos-abs">
                 <div class="summary-3211 pos-abs">
-                    <span class="summary-3211-0">Summary:</span>
+                    <span class="summary-3211-0">Summary: {{ description }}</span>
                 </div>
             </section>
 
             <!-- Frame 181 -->
             <section class="frame-18-3228 pos-abs">
                 <div class="google-books-li-3229 pos-abs">
-                    <span class="google-books-li-3229-0">Google Books Link</span>
+                    <span class="google-books-li-3229-0"><a href="{{ link }}">Google Books Link</a></span>
                 </div>
             </section>
+
+            <div class="button">            
+                <a class="inner-button" href="{{ url_for('index') }}">New Book</a>
+            </div>
         </div>
     </div>
 </body>

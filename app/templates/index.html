@@ -2,10 +2,9 @@
 <html>
 
 <head>
-  <title>Frame 1</title>
-
+   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8" />
-
+  <title>MatchMyMood - Mood Pick</title>
   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style1.css') }}" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -37,7 +36,7 @@
       </div>
 
       <!-- Frame 21 -->
-      <a href="{{ url_for('page2') }}">
+      <a href="{{ url_for('page2', mood='Unmotivated/Lazy') }}">
       <section class="frame-2-2947 pos-abs">
         <div class="unmotivated-laz-2984 pos-abs">
           <!-- prettier-ignore -->
@@ -47,7 +46,7 @@
     </a>
 
       <!-- Frame 41 -->
-      <a href="{{ url_for('page2') }}">
+      <a href="{{ url_for('page2', mood='Stressed/Overwhelmed') }}">
       <section class="frame-4-2953 pos-abs">
         <div class="stressed-overwh-2990 pos-abs">
           <!-- prettier-ignore -->
@@ -57,7 +56,7 @@
     </a>
 
       <!-- Frame 61 -->
-      <a href="{{ url_for('page2') }}">
+      <a href="{{ url_for('page2', mood='Curious/Intellectual') }}">
       <section class="frame-6-2957 pos-abs">
         <div class="curious-intelle-2994 pos-abs">
           <!-- prettier-ignore -->
@@ -66,7 +65,7 @@
       </section>
     </a>
       <!-- Frame 81 -->
-      <a href="{{ url_for('page2') }}">
+      <a href="{{ url_for('page2', mood='Angry/Frustrated') }}">
       <section class="frame-8-2963 pos-abs">
         <div class="angry-frustrate-2998 pos-abs">
           <!-- prettier-ignore -->
@@ -75,7 +74,7 @@
       </section>
     </a>
       <!-- Frame 101 -->
-      <a href="{{ url_for('page2') }}">
+      <a href="{{ url_for('page2', mood='Romantic/Dreamy') }}">
       <section class="frame-10-2973 pos-abs">
         <div class="romantic-dreamy-29102 pos-abs">
           <!-- prettier-ignore -->
@@ -84,7 +83,7 @@
       </section>
     </a>
       <!-- Frame 31 -->
-      <a href="{{ url_for('page2') }}">
+      <a href="{{ url_for('page2', mood='Nostalgic/Reflective') }}">
       <section class="frame-3-2951 pos-abs">
         <div class="nostalgic-refle-2986 pos-abs">
           <!-- prettier-ignore -->
@@ -93,7 +92,7 @@
       </section>
     </a>
       <!-- Frame 51 -->
-      <a href="{{ url_for('page2') }}">
+      <a href="{{ url_for('page2', mood='Sad/Heartbroken') }}">
       <section class="frame-5-2955 pos-abs">
         <div class="sad-heartbroken-2992 pos-abs">
           <!-- prettier-ignore -->
@@ -102,7 +101,7 @@
       </section>
     </a>
       <!-- Frame 71 -->
-      <a href="{{ url_for('page2') }}">
+      <a href="{{ url_for('page2', mood='Happy/Excited') }}">
       <section class="frame-7-2961 pos-abs">
         <div class="happyexcited-2996 pos-abs">
           <!-- prettier-ignore -->
@@ -111,7 +110,7 @@
       </section>
     </a>
       <!-- Frame 91 -->
-      <a href="{{ url_for('page2') }}">
+      <a href="{{ url_for('page2', mood='Bored/Restless') }}">
       <section class="frame-9-2969 pos-abs">
         <div class="boredrestless-29100 pos-abs">
           <!-- prettier-ignore -->
@@ -120,7 +119,7 @@
       </section>
     </a>
       <!-- Frame 111 -->
-      <a href="{{ url_for('page2') }}">
+      <a href="{{ url_for('page2', mood='Inspired/Creative') }}">
       <section class="frame-11-2977 pos-abs">
         <div class="inspired-creati-29104 pos-abs">
           <!-- prettier-ignore -->
