@@ -66,7 +66,7 @@ def recommend_book_by_mood(mood):
 
     try:
         api = "https://www.googleapis.com/books/v1/volumes?q=subject:"
-        resp = urlopen(api + selected_genre.replace(" ", "+"))
+        resp = urlopen(api + selected_genre.replace(" ", "+") + "&key=AIzaSyAqnSSEBLgkpqn2NHL1v7bxNxId4zn8EX8")
         book_data = json.load(resp)
         
 
